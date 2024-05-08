@@ -1,7 +1,7 @@
 package designpattern.adapter;
 
-import designpattern.adapter.Cafe.*;
-import designpattern.adapter.Store.*;
+import designpattern.adapter.cafe.*;
+import designpattern.adapter.store.*;
 
 
 /*

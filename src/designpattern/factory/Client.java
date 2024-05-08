@@ -1,6 +1,6 @@
 package designpattern.factory;
 
-import designpattern.factory.OperatingSystem.*;
+import designpattern.factory.operatingsystem.*;
 
 import java.util.Scanner;
 
