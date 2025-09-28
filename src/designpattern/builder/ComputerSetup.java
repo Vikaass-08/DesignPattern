@@ -1,8 +1,8 @@
 package designpattern.builder;
 
 public class ComputerSetup {
-  private boolean keyboard;
-  private boolean mouse;
+  private final boolean keyboard;
+  private final boolean mouse;
 
   @Override
   public String toString() {
@@ -15,9 +15,9 @@ public class ComputerSetup {
             '}';
   }
 
-  private boolean mic;
-  private boolean speaker;
-  private boolean monitor;
+  private final boolean mic;
+  private final boolean speaker;
+  private final boolean monitor;
 
   private ComputerSetup(ComputerSetupBuilder computerSetupBuilder) {
     this.keyboard = computerSetupBuilder.keyboard;

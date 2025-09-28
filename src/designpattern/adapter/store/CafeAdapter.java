@@ -4,7 +4,7 @@ import designpattern.adapter.cafe.*;
 
 public class CafeAdapter implements Order {
 
-  private Item item;
+  private final Item item;
 
   public CafeAdapter(Item item) {
     this.item = item;

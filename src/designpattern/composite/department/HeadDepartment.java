@@ -3,9 +3,9 @@ package designpattern.composite.department;
 import java.util.*;
 
 public class HeadDepartment implements Department{
-  private int id;
-  private String name;
-  private List<Department> manageDepartment;
+  private final int id;
+  private final String name;
+  private final List<Department> manageDepartment;
 
   public HeadDepartment(int id, String name) {
     this.id = id;
@@ -28,5 +28,10 @@ public class HeadDepartment implements Department{
     for(Department department: manageDepartment) {
       department.departmentName();
     }
+  }
+
+  @Override
+  public int getDepartmentId() {
+    return this.id;
   }
 }
